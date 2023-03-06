@@ -9,6 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import javax.annotation.PostConstruct;
 
 import com.example.springbootpractice.properties.MyProperties;
+import com.example.springbootpractice.service.StudentService;
 
 @RequiredArgsConstructor
 @ConfigurationPropertiesScan
@@ -16,6 +17,7 @@ import com.example.springbootpractice.properties.MyProperties;
 public class SpringBootPracticeApplication {
 
 	private final MyProperties myProperties;
+	private final StudentService studentService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootPracticeApplication.class, args);
