@@ -9,7 +9,7 @@ import org.springframework.boot.convert.DurationUnit;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 
-@ConstructorBinding
+@ConstructorBindin
 @ConfigurationProperties("iam")
 public class CustomProperties {
 

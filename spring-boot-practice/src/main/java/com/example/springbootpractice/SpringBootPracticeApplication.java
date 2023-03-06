@@ -25,10 +25,7 @@ public class SpringBootPracticeApplication {
 
 	@PostConstruct
 	public void init() {
-		// System.out.println("내 키는: " + myProperties.getHeight());
-		studentService.printStudent("jack");
-		studentService.printStudent("jack");
-		studentService.printStudent("jack");
+		System.out.println("내 키는: " + myProperties.getHeight());
 	}
 
 }

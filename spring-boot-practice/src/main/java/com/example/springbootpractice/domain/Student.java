@@ -1,5 +1,7 @@
 package com.example.springbootpractice.domain;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
