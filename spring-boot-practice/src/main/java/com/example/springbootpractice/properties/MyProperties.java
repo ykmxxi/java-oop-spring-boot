@@ -1,8 +1,9 @@
 package com.example.springbootpractice.properties;
 
-import lombok.Getter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;
+
+import lombok.Getter;
 
 @Getter
 @ConstructorBinding
