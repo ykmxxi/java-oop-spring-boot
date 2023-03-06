@@ -4,9 +4,9 @@ plugins {
     id 'java'
 }
 
-group = 'com.fastcampus'
+group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '16'
+sourceCompatibility = '11'
 
 repositories {
     mavenCentral()
